@@ -3,21 +3,23 @@
         
         <script>
             //Write a program to calculate the area of a triangle, area, and volume of a cylinder
-            var baseOfTriangle=23;
-            var heightOfTriangle=25;
-            var areaOfTriangle;
-            areaOfTriangle=1/2*(baseOfTriangle*heightOfTriangle);
+        //for triangle
+            var base=23;
+            var height=25;
+            var area;
+            area=1/2*(base*height);
 
-            document.write("Area Of Triangle(with base:23, height:25)= "+areaOfTriangle);
+            document.write("Area  Of  Triangle (with base:23, height:25)= "+area);
             
-            var radiusOfCylinder=12;
-            var heightOfCylinder=40;
+            //for cylinder
+            var radius=12;
+            var Height=40;
             const PI=3.14;
-            var areaOfCylinder=(2*PI*radiusOfCylinder*heightOfCylinder)+(2*PI*(radiusOfCylinder*radiusOfCylinder));
-            var volumeOfCylinder=PI*(radiusOfCylinder*radiusOfCylinder)*heightOfCylinder;
+            var Area=(2*PI*radius*Height)+(2*PI*(radius*radius));
+            var volume=PI*(radius*radius)*Height;
             
-            document.write(" ------Area Of Cylinder(with radius:12, height:40 "+areaOfCylinder);
-            document.write("------ Volume Of Cylinder= "+volumeOfCylinder);
+            document.write(" ------Area  Of  Cylinder(with radius:12, height:40)= "+Area);
+            document.write("------ Volume  Of  Cylinder= "+volume);
             </script>
     </body>
 </html>
