@@ -1,0 +1,273 @@
+.header{
+	padding: 20px 40px;
+	box-sizing:border-box;
+	box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.15);
+	height: 80px;
+	background-color: #fff;
+}
+
+.header .header-limiter {
+	max-width: 1200px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* Logo */
+
+.header .header-limiter img{
+	float: left;
+	font: normal 28px Cookie, Arial, Helvetica, sans-serif;
+	line-height: 40px;
+	margin: 0;
+}
+
+.header .header-limiter h1 span {
+	color: #5383d3;
+}
+
+/* The header links */
+
+.header .header-limiter a {
+	color: #5c616a;
+	text-decoration: none;
+}
+
+.header .header-limiter nav{
+	font-family: "Open Sans";
+	font:15px;
+	line-height: 40px;
+	float: right;
+}
+
+.header .header-limiter nav a{
+	display: inline-block;
+	padding: 0 10px;
+	opacity: 0.9;
+	text-decoration:none;
+	color:  #000000;
+	line-height:1;
+}
+
+.header .header-limiter nav a.login {
+	background-color: #ffff00;
+	color: #000000;
+	border-radius: 3px;
+	padding:6px 10px;
+	font-weight: bolder;
+}
+
+/* Making the header responsive. */
+
+@media all and (max-width: 600px) {
+
+	.header {
+		padding: 20px 0;
+		height: 85px;
+	}
+
+	.header .header-limiter h1 {
+		float: none;
+		margin: -8px 0 10px;
+		text-align: center;
+		font-size: 24px;
+		line-height: 1;
+	}
+
+	.header .header-limiter nav {
+		line-height: 1;
+		float:none;
+	}
+
+	.header .header-limiter nav a {
+		font-size: 13px;
+	}
+
+}
+
+/* For the headers to look good, be sure to reset the margin and padding of the body */
+
+body {
+	margin:0;
+	padding:0;
+}
+
+
+
+
+#text_white
+{
+font-family: "Open Sans";
+font-size:35px;font-weight: bolder;
+	color: white;
+	text-align: center;
+
+
+
+
+
+}
+.li
+{
+font-family: "Open Sans";
+font-size:15px;font-weight: bolder;
+	color: white;
+	text-align: left;
+
+
+
+
+
+}
+
+
+
+
+
+#text
+{
+font-family: "Open Sans";
+font-size:35px;font-weight: bolder;
+	color: #000000;
+	text-align: center;
+
+
+
+
+
+}
+
+
+
+    
+ .proposal ,   section 
+    
+{
+  background-image: url("../images/bg.png");
+    background-attachment: fixed;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+}
+.proposal ,   section p{
+  color: #ffffff;
+
+  padding-top:100px;
+  padding-bottom: 150px;
+  padding-right : 150px;
+  padding-left: 150px;
+font-family: "Open Sans";
+-webkit-text-stroke-width:0.2px;
+-webkit-text-stroke-color:white;
+font-size:35px;font-weight: bolder;
+
+
+
+}
+.para{
+color: black;
+font-family: "Open Sans";
+
+
+
+
+
+}
+
+
+#inspect img {
+	background-color: yellow;
+	border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+#button {
+	background-color: #ffff00;
+	color: #000000;
+	border-radius: 3px;
+	padding:6px 10px;
+	font-weight: bolder;
+	display: inline-block;
+	font-family: "Open Sans";
+		font-size:20px;
+
+
+}
+
+.container_stat {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Open Sans";
+-webkit-text-stroke-width:0.2px;
+-webkit-text-stroke-color:white;
+font-size:35px;font-weight: bolder;
+
+
+}
+.lifooter
+{
+  background-image: url("../images/footerli.png");
+    background-attachment: fixed;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+
+  margin: 5px;
+padding-bottom: 50px;
+
+
+
+
+}
+
+
+
+ul {
+	 list-style-type: circle;
+
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+
+}
+
+
+#sticky {
+  width:100%;
+  height:44px;
+  padding-top:80px;
+  background:black;
+  color:white;
+  font-weight:bold;
+  font-size:24px;
+  text-align:center;
+font-family: Open Sans;
+  top: 0;
+  bottom:0;          
+  left:0; 
+
+  padding-bottom: 80px;          
+}
+
+
+
+
+
+
+
+
+
